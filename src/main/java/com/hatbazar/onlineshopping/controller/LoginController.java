@@ -11,7 +11,7 @@ public class LoginController {
 
 	@RequestMapping(value="/" , method = RequestMethod.GET)
     public String sayHello(ModelMap model) {
-        model.addAttribute("greeting", " HaatBazar OnlineShopping!! ");
+        model.addAttribute("greeting", "HaatBazaar OnlineShopping!! Enjoy Shopping ");
         return "welcome";
     }
  
